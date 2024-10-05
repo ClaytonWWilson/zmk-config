@@ -18,14 +18,14 @@
 
         row-gpios = <&gpio0 1 GPIO_ACTIVE_LOW>, // Pin for row 1
                     <&gpio0 0 GPIO_ACTIVE_LOW>, // Pin for row 2
-                    <&gpio0 2 GPIO_ACTIVE_LOW>; // Pin for row 3
+                    <&gpio0 2 GPIO_ACTIVE_LOW>, // Pin for row 3
                     <&gpio0 3 GPIO_ACTIVE_LOW>; // Pin for row 4
 
         col-gpios = <&gpio0 19 GPIO_ACTIVE_LOW>, // Pin for column 1
                     <&gpio0 18 GPIO_ACTIVE_LOW>, // Pin for column 2
-                    <&gpio0 15 GPIO_ACTIVE_LOW>; // Pin for column 3
-                    <&gpio0 14 GPIO_ACTIVE_LOW>; // Pin for column 4
-                    <&gpio0 16 GPIO_ACTIVE_LOW>; // Pin for column 5
+                    <&gpio0 15 GPIO_ACTIVE_LOW>, // Pin for column 3
+                    <&gpio0 14 GPIO_ACTIVE_LOW>, // Pin for column 4
+                    <&gpio0 16 GPIO_ACTIVE_LOW>, // Pin for column 5
                     <&gpio0 10 GPIO_ACTIVE_LOW>; // Pin for column 6
     };
 
