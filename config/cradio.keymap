@@ -14,7 +14,7 @@
     key_matrix {
         compatible = "zmk,matrix-transform";
         rows = <4>; // 3 rows
-        cols = <6>; // 3 columns
+        columns = <6>; // 3 columns
 
         row-gpios = <&gpio0 1 GPIO_ACTIVE_LOW>, // Pin for row 1
                     <&gpio0 0 GPIO_ACTIVE_LOW>, // Pin for row 2
