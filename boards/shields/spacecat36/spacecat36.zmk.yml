@@ -1,0 +1,12 @@
+file_format: "1"
+id: spacecat36
+name: spacecat36
+type: shield
+url: https://github.com/ClaytonWWilson/SpaceCat38
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - spacecat36_left
+  - spacecat36_right
